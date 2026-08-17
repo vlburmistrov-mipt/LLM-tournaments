@@ -2,9 +2,10 @@ import ollama
 import pandas as pd
 from itertools import combinations
 
-# MODELS = ["llama3.2:3b", "qwen2.5:3b", "gemma2:2b", "mistral:7b"]
-MODELS = ["gemma4:26b", "gemma4:26b"]
-ROUNDS_PER_MATCH = 5
+MODELS = ["llama3.2:3b", "qwen2.5:3b", "gemma2:2b", "mistral:7b"]
+# MODELS = ["llama3.2:3b", "qwen2.5:3b", "gemma2:2b"]
+# MODELS = ["gemma4:26b", "gemma4:26b"]
+ROUNDS_PER_MATCH = 10
 
 PAYOFFS = {
     ("COOPERATE", "COOPERATE"): (3, 3),
