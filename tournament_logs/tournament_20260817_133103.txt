@@ -1,0 +1,89 @@
+Запуск турнира: 2026-08-17 13:31:03
+OpenAI-compatible base URL: http://localhost:11434/v1
+Модели: llama3.2:3b, qwen2.5:3b, gemma2:2b, mistral:7b
+Раундов на матч: 10
+
+Матч: llama3.2:3b против qwen2.5:3b
+ Раунд 1: llama3.2:3b [COOPERATE] (3 pts) | qwen2.5:3b [COOPERATE] (3 pts)
+ Раунд 2: llama3.2:3b [COOPERATE] (3 pts) | qwen2.5:3b [COOPERATE] (3 pts)
+ Раунд 3: llama3.2:3b [COOPERATE] (3 pts) | qwen2.5:3b [COOPERATE] (3 pts)
+ Раунд 4: llama3.2:3b [COOPERATE] (3 pts) | qwen2.5:3b [COOPERATE] (3 pts)
+ Раунд 5: llama3.2:3b [COOPERATE] (3 pts) | qwen2.5:3b [COOPERATE] (3 pts)
+ Раунд 6: llama3.2:3b [DEFECT] (1 pts) | qwen2.5:3b [DEFECT] (1 pts)
+ Раунд 7: llama3.2:3b [DEFECT] (5 pts) | qwen2.5:3b [COOPERATE] (0 pts)
+ Раунд 8: llama3.2:3b [DEFECT] (5 pts) | qwen2.5:3b [COOPERATE] (0 pts)
+ Раунд 9: llama3.2:3b [DEFECT] (5 pts) | qwen2.5:3b [COOPERATE] (0 pts)
+ Раунд 10: llama3.2:3b [DEFECT] (5 pts) | qwen2.5:3b [COOPERATE] (0 pts)
+
+Матч: llama3.2:3b против gemma2:2b
+ Раунд 1: llama3.2:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 2: llama3.2:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 3: llama3.2:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 4: llama3.2:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 5: llama3.2:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 6: llama3.2:3b [DEFECT] (5 pts) | gemma2:2b [COOPERATE] (0 pts)
+ Раунд 7: llama3.2:3b [DEFECT] (5 pts) | gemma2:2b [COOPERATE] (0 pts)
+ Раунд 8: llama3.2:3b [DEFECT] (5 pts) | gemma2:2b [COOPERATE] (0 pts)
+ Раунд 9: llama3.2:3b [DEFECT] (5 pts) | gemma2:2b [COOPERATE] (0 pts)
+ Раунд 10: llama3.2:3b [DEFECT] (5 pts) | gemma2:2b [COOPERATE] (0 pts)
+
+Матч: llama3.2:3b против mistral:7b
+ Раунд 1: llama3.2:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 2: llama3.2:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 3: llama3.2:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 4: llama3.2:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 5: llama3.2:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 6: llama3.2:3b [DEFECT] (5 pts) | mistral:7b [COOPERATE] (0 pts)
+ Раунд 7: llama3.2:3b [DEFECT] (5 pts) | mistral:7b [COOPERATE] (0 pts)
+ Раунд 8: llama3.2:3b [DEFECT] (1 pts) | mistral:7b [DEFECT] (1 pts)
+ Раунд 9: llama3.2:3b [DEFECT] (5 pts) | mistral:7b [COOPERATE] (0 pts)
+ Раунд 10: llama3.2:3b [DEFECT] (1 pts) | mistral:7b [DEFECT] (1 pts)
+
+Матч: qwen2.5:3b против gemma2:2b
+ Раунд 1: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 2: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 3: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 4: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 5: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 6: qwen2.5:3b [DEFECT] (5 pts) | gemma2:2b [COOPERATE] (0 pts)
+ Раунд 7: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 8: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 9: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+ Раунд 10: qwen2.5:3b [COOPERATE] (3 pts) | gemma2:2b [COOPERATE] (3 pts)
+
+Матч: qwen2.5:3b против mistral:7b
+ Раунд 1: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 2: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 3: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 4: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 5: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 6: qwen2.5:3b [DEFECT] (5 pts) | mistral:7b [COOPERATE] (0 pts)
+ Раунд 7: qwen2.5:3b [COOPERATE] (0 pts) | mistral:7b [DEFECT] (5 pts)
+ Раунд 8: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 9: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 10: qwen2.5:3b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+
+Матч: gemma2:2b против mistral:7b
+ Раунд 1: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 2: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 3: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 4: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 5: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 6: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 7: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 8: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 9: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+ Раунд 10: gemma2:2b [COOPERATE] (3 pts) | mistral:7b [COOPERATE] (3 pts)
+
+==================================================
+ИТОГОВЫЕ РЕЗУЛЬТАТЫ СИСТЕМЫ
+==================================================
+     Модель  Итоговые очки
+llama3.2:3b            108
+ qwen2.5:3b             77
+ mistral:7b             76
+  gemma2:2b             72
+
+Общая совокупная польза всех агентов: 333 очков
+
+Протокол сохранен: tournament_logs/tournament_20260817_133103.txt
