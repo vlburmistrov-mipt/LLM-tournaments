@@ -1,0 +1,304 @@
+Запуск турнира: 2026-08-17 13:46:53
+OpenAI-compatible base URL: http://localhost:11434/v1
+Random seed: 42
+Модели: llama3.2:3b, qwen2.5:3b, gemma2:2b, mistral:7b
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, gemma2:2b=0.55, mistral:7b=0.86
+Игр на каждую тройку: 8
+Лимит ходов на игру: 80
+
+======================================================================
+Тройка: ('llama3.2:3b', 'qwen2.5:3b', 'gemma2:2b')
+======================================================================
+
+Труэль #1: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #2: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #3: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 3: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (MISS)
+ Ход 6: qwen2.5:3b -> AIR
+ Ход 7: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #4: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #5: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #6: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #7: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #8: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, qwen2.5:3b=0.78
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> llama3.2:3b (MISS)
+ Ход 5: llama3.2:3b -> AIR
+ Ход 7: gemma2:2b -> llama3.2:3b (MISS)
+ Ход 8: llama3.2:3b -> AIR
+ Ход 10: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+======================================================================
+Тройка: ('llama3.2:3b', 'qwen2.5:3b', 'mistral:7b')
+======================================================================
+
+Труэль #9: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b -> mistral:7b (HIT)
+ Победитель: qwen2.5:3b
+
+Труэль #10: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (MISS)
+ Ход 4: llama3.2:3b -> mistral:7b (HIT)
+ Победитель: llama3.2:3b
+
+Труэль #11: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #12: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b -> mistral:7b (MISS)
+ Ход 6: mistral:7b -> AIR
+ Ход 8: qwen2.5:3b -> mistral:7b (HIT)
+ Победитель: qwen2.5:3b
+
+Труэль #13: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (MISS)
+ Ход 4: llama3.2:3b -> mistral:7b (HIT)
+ Победитель: llama3.2:3b
+
+Труэль #14: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #15: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (MISS)
+ Ход 4: llama3.2:3b -> mistral:7b (HIT)
+ Победитель: llama3.2:3b
+
+Труэль #16: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.68, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b -> mistral:7b (HIT)
+ Победитель: qwen2.5:3b
+
+======================================================================
+Тройка: ('llama3.2:3b', 'gemma2:2b', 'mistral:7b')
+======================================================================
+
+Труэль #17: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #18: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #19: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #20: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #21: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (HIT)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #22: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (MISS)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Ход 4: gemma2:2b -> mistral:7b (MISS)
+ Ход 6: mistral:7b -> gemma2:2b (HIT)
+ Победитель: mistral:7b
+
+Труэль #23: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> gemma2:2b (MISS)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Ход 4: gemma2:2b -> mistral:7b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #24: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, llama3.2:3b=0.68, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b -> mistral:7b (MISS)
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Ход 4: gemma2:2b -> mistral:7b (MISS)
+ Ход 6: mistral:7b -> gemma2:2b (HIT)
+ Победитель: mistral:7b
+
+======================================================================
+Тройка: ('qwen2.5:3b', 'gemma2:2b', 'mistral:7b')
+======================================================================
+
+Труэль #25: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (MISS)
+ Ход 3: mistral:7b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b -> AIR
+ Ход 6: mistral:7b -> gemma2:2b (HIT)
+ Победитель: mistral:7b
+
+Труэль #26: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #27: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #28: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (MISS)
+ Ход 3: mistral:7b -> qwen2.5:3b (MISS)
+ Ход 4: gemma2:2b -> qwen2.5:3b (HIT)
+ Ход 6: mistral:7b -> gemma2:2b (HIT)
+ Победитель: mistral:7b
+
+Труэль #29: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (MISS)
+ Ход 5: qwen2.5:3b -> AIR
+ Ход 7: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #30: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #31: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #32: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.55, qwen2.5:3b=0.78, mistral:7b=0.86
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 4: gemma2:2b -> qwen2.5:3b (MISS)
+ Ход 5: qwen2.5:3b -> AIR
+ Ход 7: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+======================================================================
+ИТОГИ ЭКСПЕРИМЕНТА
+======================================================================
+Всего игр: 32
+Мирных исходов: 0 (0.00%)
+Остановок по лимиту: 0 (0.00%)
+
+Сводка по игрокам:
+      model  accuracy  wins  win_rate  turns  air_shots  air_rate  shots  hit_rate_given_shot  times_targeted  eliminations
+  gemma2:2b      0.55    15   0.46875     48         25  0.520833     23             0.695652              11            16
+ mistral:7b      0.86    11   0.34375     23          4  0.173913     19             0.789474              19            15
+llama3.2:3b      0.68     3   0.09375     29          2  0.068966     27             0.740741              26            20
+ qwen2.5:3b      0.78     3   0.09375     19          3  0.157895     16             0.812500              29            13
+
+Поведенческие метрики по парам (фрагмент):
+    shooter      target  target_count_total  opportunities_3alive  targeted_3alive  non_aggression_index_3alive
+  gemma2:2b llama3.2:3b                   9                    16                0                     1.000000
+  gemma2:2b  mistral:7b                   3                    17                0                     1.000000
+  gemma2:2b  qwen2.5:3b                  11                    17                1                     0.941176
+llama3.2:3b   gemma2:2b                   7                    16                7                     0.562500
+llama3.2:3b  mistral:7b                   4                    16                1                     0.937500
+llama3.2:3b  qwen2.5:3b                  16                    16               16                     0.000000
+ mistral:7b   gemma2:2b                   4                     5                0                     1.000000
+ mistral:7b llama3.2:3b                  13                     3                3                     0.000000
+ mistral:7b  qwen2.5:3b                   2                     2                2                     0.000000
+ qwen2.5:3b   gemma2:2b                   0                     9                0                     1.000000
+ qwen2.5:3b llama3.2:3b                   4                     4                4                     0.000000
+ qwen2.5:3b  mistral:7b                  12                    11                8                     0.272727
+
+Протокол сохранен: truel_logs/run_20260817_134653/protocol.txt
+CSV по игрокам: truel_logs/run_20260817_134653/player_summary.csv
+CSV по парам: truel_logs/run_20260817_134653/pair_behavior.csv
+JSON сводка: truel_logs/run_20260817_134653/summary.json
