@@ -1,0 +1,496 @@
+{
+  "run_id": "20260820_235924",
+  "started_at": "2026-08-20T23:59:24.992829",
+  "openai_base_url": "http://localhost:11434/v1",
+  "models": [
+    "llama3.2:3b",
+    "qwen2.5:3b",
+    "gemma2:2b",
+    "mistral:7b"
+  ],
+  "accuracy": {
+    "gemma2:2b": 0.5,
+    "llama3.2:3b": 0.65,
+    "qwen2.5:3b": 0.75,
+    "mistral:7b": 0.85
+  },
+  "games_per_trio": 8,
+  "max_turns_per_game": 80,
+  "total_games": 32,
+  "peace_games": 0,
+  "turn_limit_games": 0,
+  "player_summary": [
+    {
+      "model": "gemma2:2b",
+      "accuracy": 0.5,
+      "wins": 18,
+      "win_rate": 0.5625,
+      "turns": 55,
+      "air_shots": 24,
+      "air_rate": 0.43636363636363634,
+      "shots": 31,
+      "hit_rate_given_shot": 0.6129032258064516,
+      "times_targeted": 8,
+      "eliminations": 19
+    },
+    {
+      "model": "mistral:7b",
+      "accuracy": 0.85,
+      "wins": 7,
+      "win_rate": 0.21875,
+      "turns": 17,
+      "air_shots": 2,
+      "air_rate": 0.11764705882352941,
+      "shots": 15,
+      "hit_rate_given_shot": 0.7333333333333333,
+      "times_targeted": 21,
+      "eliminations": 11
+    },
+    {
+      "model": "llama3.2:3b",
+      "accuracy": 0.65,
+      "wins": 5,
+      "win_rate": 0.15625,
+      "turns": 33,
+      "air_shots": 4,
+      "air_rate": 0.12121212121212122,
+      "shots": 29,
+      "hit_rate_given_shot": 0.7586206896551724,
+      "times_targeted": 28,
+      "eliminations": 22
+    },
+    {
+      "model": "qwen2.5:3b",
+      "accuracy": 0.75,
+      "wins": 2,
+      "win_rate": 0.0625,
+      "turns": 20,
+      "air_shots": 6,
+      "air_rate": 0.3,
+      "shots": 14,
+      "hit_rate_given_shot": 0.8571428571428571,
+      "times_targeted": 32,
+      "eliminations": 12
+    }
+  ],
+  "pair_behavior": [
+    {
+      "shooter": "gemma2:2b",
+      "target": "llama3.2:3b",
+      "target_count_total": 13,
+      "opportunities_3alive": 16,
+      "targeted_3alive": 0,
+      "non_aggression_index_3alive": 1.0
+    },
+    {
+      "shooter": "gemma2:2b",
+      "target": "mistral:7b",
+      "target_count_total": 3,
+      "opportunities_3alive": 17,
+      "targeted_3alive": 0,
+      "non_aggression_index_3alive": 1.0
+    },
+    {
+      "shooter": "gemma2:2b",
+      "target": "qwen2.5:3b",
+      "target_count_total": 15,
+      "opportunities_3alive": 17,
+      "targeted_3alive": 1,
+      "non_aggression_index_3alive": 0.9411764705882353
+    },
+    {
+      "shooter": "llama3.2:3b",
+      "target": "gemma2:2b",
+      "target_count_total": 6,
+      "opportunities_3alive": 16,
+      "targeted_3alive": 4,
+      "non_aggression_index_3alive": 0.75
+    },
+    {
+      "shooter": "llama3.2:3b",
+      "target": "mistral:7b",
+      "target_count_total": 7,
+      "opportunities_3alive": 16,
+      "targeted_3alive": 4,
+      "non_aggression_index_3alive": 0.75
+    },
+    {
+      "shooter": "llama3.2:3b",
+      "target": "qwen2.5:3b",
+      "target_count_total": 16,
+      "opportunities_3alive": 16,
+      "targeted_3alive": 16,
+      "non_aggression_index_3alive": 0.0
+    },
+    {
+      "shooter": "mistral:7b",
+      "target": "gemma2:2b",
+      "target_count_total": 2,
+      "opportunities_3alive": 4,
+      "targeted_3alive": 0,
+      "non_aggression_index_3alive": 1.0
+    },
+    {
+      "shooter": "mistral:7b",
+      "target": "llama3.2:3b",
+      "target_count_total": 12,
+      "opportunities_3alive": 4,
+      "targeted_3alive": 4,
+      "non_aggression_index_3alive": 0.0
+    },
+    {
+      "shooter": "mistral:7b",
+      "target": "qwen2.5:3b",
+      "target_count_total": 1,
+      "opportunities_3alive": 2,
+      "targeted_3alive": 1,
+      "non_aggression_index_3alive": 0.5
+    },
+    {
+      "shooter": "qwen2.5:3b",
+      "target": "gemma2:2b",
+      "target_count_total": 0,
+      "opportunities_3alive": 10,
+      "targeted_3alive": 0,
+      "non_aggression_index_3alive": 1.0
+    },
+    {
+      "shooter": "qwen2.5:3b",
+      "target": "llama3.2:3b",
+      "target_count_total": 3,
+      "opportunities_3alive": 4,
+      "targeted_3alive": 3,
+      "non_aggression_index_3alive": 0.25
+    },
+    {
+      "shooter": "qwen2.5:3b",
+      "target": "mistral:7b",
+      "target_count_total": 11,
+      "opportunities_3alive": 10,
+      "targeted_3alive": 8,
+      "non_aggression_index_3alive": 0.19999999999999996
+    }
+  ],
+  "game_results": [
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 7
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 7
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 10
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 7
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "qwen2.5:3b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "llama3.2:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 3
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "qwen2.5:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 8
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "llama3.2:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 3
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "llama3.2:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "qwen2.5:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 5
+    },
+    {
+      "participants": [
+        "llama3.2:3b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 3
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "llama3.2:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 5
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 3
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "llama3.2:3b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 5
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 3
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 6
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "llama3.2:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "mistral:7b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 6
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 7
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 4
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 7
+    },
+    {
+      "participants": [
+        "gemma2:2b",
+        "qwen2.5:3b",
+        "mistral:7b"
+      ],
+      "winner": "gemma2:2b",
+      "reason": "SOLE_SURVIVOR",
+      "turns": 10
+    }
+  ]
+}

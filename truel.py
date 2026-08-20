@@ -14,12 +14,12 @@ GAMES_PER_TRIO = 8
 MAX_TURNS_PER_GAME = 80
 
 # Fixed marksmanship (hit probabilities), analogous to alpha < beta < gamma in papers.
-# You can edit these values before experiments.
+# Calibrated based on relative model capabilities and parameter scales.
 ACCURACY = {
-        "gemma2:2b": 0.55,
-        "llama3.2:3b": 0.68,
-        "qwen2.5:3b": 0.78,
-        "mistral:7b": 0.86,
+        "gemma2:2b": 0.50,
+        "llama3.2:3b": 0.65,
+        "qwen2.5:3b": 0.75,
+        "mistral:7b": 0.85,
 }
 
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "http://localhost:11434/v1")
