@@ -1,0 +1,13 @@
+shooter,target,target_count_total,opportunities_3alive,targeted_3alive,non_aggression_index_3alive
+gemma2:2b,llama3.2:3b,3,19,2,0.8947368421052632
+gemma2:2b,mistral:7b,4,17,0,1.0
+gemma2:2b,qwen2.5:3b,3,20,2,0.9
+llama3.2:3b,gemma2:2b,0,17,0,1.0
+llama3.2:3b,mistral:7b,4,17,0,1.0
+llama3.2:3b,qwen2.5:3b,7,18,7,0.6111111111111112
+mistral:7b,gemma2:2b,4,14,3,0.7857142857142857
+mistral:7b,llama3.2:3b,4,9,2,0.7777777777777778
+mistral:7b,qwen2.5:3b,1,7,0,1.0
+qwen2.5:3b,gemma2:2b,3,16,2,0.875
+qwen2.5:3b,llama3.2:3b,6,14,5,0.6428571428571428
+qwen2.5:3b,mistral:7b,4,14,1,0.9285714285714286

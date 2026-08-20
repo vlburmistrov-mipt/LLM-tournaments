@@ -1,0 +1,447 @@
+Запуск турнира: 2026-08-21 00:16:40
+OpenAI-compatible base URL: http://localhost:11434/v1
+Random seed: 42
+Модели: llama3.2:3b, qwen2.5:3b, gemma2:2b, mistral:7b
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, gemma2:2b=0.50, mistral:7b=0.85
+Игр на каждую тройку: 8
+Лимит ходов на игру: 80
+
+======================================================================
+Тройка: ('llama3.2:3b', 'qwen2.5:3b', 'gemma2:2b')
+======================================================================
+
+Труэль #1: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Let's keep this a clean game.  I'm ready to play."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Clean game, let's see about that."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: qwen2.5:3b говорит: "I'll keep things clean. Let's proceed."
+ Ход 3: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #2: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Let's keep this a friendly game.  😉"
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Nice try, let's see who's friendly 😏"
+ Ход 2: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 4: gemma2:2b говорит: "I'm not sure about that.  🤔"
+ Ход 4: gemma2:2b -> llama3.2:3b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #3: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Let's play it cool.  I'm ready to start."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's play it cool.  I'm ready to start."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: qwen2.5:3b говорит: "I'll go first with AIR."
+ Ход 3: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #4: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's see what unfolds"
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: qwen2.5:3b говорит: "I'll observe for now and try to gather more information."
+ Ход 3: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #5: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Looking for a good target.  Let's keep it interesting."
+ Ход 1: gemma2:2b -> llama3.2:3b (HIT)
+ Ход 3: qwen2.5:3b говорит: "I'll take the first shot. Let's see who can survive this."
+ Ход 3: qwen2.5:3b -> gemma2:2b (HIT)
+ Победитель: qwen2.5:3b
+
+Труэль #6: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Let's keep this a clean game. No need for unnecessary drama."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Clean game, indeed."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: qwen2.5:3b говорит: "I'll continue the tradition of a clean game."
+ Ход 3: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #7: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Let's keep this a clean game.  I'm ready to play."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Clean game, let's play smart."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: qwen2.5:3b говорит: "I'll keep this clean as well. Let's proceed."
+ Ход 3: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #8: участники=['gemma2:2b', 'llama3.2:3b', 'qwen2.5:3b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, qwen2.5:3b=0.75
+ Ход 1: gemma2:2b говорит: "Let's keep things interesting.  😉"
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "😏"
+ Ход 2: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 3: qwen2.5:3b говорит: "I'll observe for now and think strategically."
+ Ход 3: qwen2.5:3b -> AIR
+ Ход 4: gemma2:2b говорит: "Hmm, interesting.  I'll be watching closely."
+ Ход 4: gemma2:2b -> AIR
+ Ход 5: llama3.2:3b говорит: "😏"
+ Ход 5: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 6: qwen2.5:3b говорит: "I'll consider my options carefully before making a move."
+ Ход 6: qwen2.5:3b -> AIR
+ Ход 7: gemma2:2b говорит: "Intriguing.  I'll play it safe for now."
+ Ход 7: gemma2:2b -> AIR
+ Ход 8: llama3.2:3b говорит: "Looks like you're not taking this seriously. 😏"
+ Ход 8: llama3.2:3b -> qwen2.5:3b (MISS)
+ Ход 9: qwen2.5:3b говорит: "I'll continue to observe and think strategically."
+ Ход 9: qwen2.5:3b -> AIR
+ Ход 10: gemma2:2b говорит: "I'm ready to play. Let's see what happens."
+ Ход 10: gemma2:2b -> llama3.2:3b (HIT)
+ Ход 12: qwen2.5:3b говорит: "I'll continue to observe and think strategically."
+ Ход 12: qwen2.5:3b -> AIR
+ Ход 13: gemma2:2b говорит: "Ready to play, let's see what happens."
+ Ход 13: gemma2:2b -> qwen2.5:3b (HIT)
+ Победитель: gemma2:2b
+
+======================================================================
+Тройка: ('llama3.2:3b', 'qwen2.5:3b', 'mistral:7b')
+======================================================================
+
+Труэль #9: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm not afraid of you!"
+ Ход 1: llama3.2:3b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I will shoot the one who shoots first."
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b говорит: "I'm following the strategy of not being the first to shoot. Let's see who breaks the pattern."
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I will continue the strategy of not being the first to shoot."
+ Ход 5: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #10: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm feeling lucky"
+ Ход 1: llama3.2:3b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I will shoot the one who skipped last turn."
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b говорит: "I'm following the strategy of not shooting first unless threatened."
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I will shoot the one who skipped last turn."
+ Ход 5: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #11: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm not afraid of you!"
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b говорит: "Let's maintain peace for now, but be aware that I'm always ready to defend myself."
+ Ход 3: mistral:7b -> AIR
+ Ход 4: llama3.2:3b говорит: "You're not as ready as you think!"
+ Ход 4: llama3.2:3b -> mistral:7b (HIT)
+ Победитель: llama3.2:3b
+
+Труэль #12: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm not afraid of you!"
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b говорит: "Let's maintain peace for now, but remember the past action."
+ Ход 3: mistral:7b -> AIR
+ Ход 4: llama3.2:3b говорит: "You're not as sneaky as you think!"
+ Ход 4: llama3.2:3b -> mistral:7b (HIT)
+ Победитель: llama3.2:3b
+
+Труэль #13: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm not afraid of you"
+ Ход 1: llama3.2:3b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b говорит: "I'm considering my options, but remember: the safest move is often the one that seems the riskiest."
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 5: qwen2.5:3b -> mistral:7b (HIT)
+ Победитель: qwen2.5:3b
+
+Труэль #14: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm not afraid of you!"
+ Ход 1: llama3.2:3b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b говорит: "Let's see who's bluffing first."
+ Ход 3: mistral:7b -> AIR
+ Ход 4: llama3.2:3b говорит: "You're bluffing, Mistral!"
+ Ход 4: llama3.2:3b -> mistral:7b (MISS)
+ Ход 6: mistral:7b говорит: "I've been observing, Llama. Your aggressive approach might backfire."
+ Ход 6: mistral:7b -> AIR
+ Ход 7: llama3.2:3b говорит: "I'm not bluffing, I'm just getting started!"
+ Ход 7: llama3.2:3b -> mistral:7b (HIT)
+ Победитель: llama3.2:3b
+
+Труэль #15: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm feeling lucky"
+ Ход 1: llama3.2:3b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 2: qwen2.5:3b -> llama3.2:3b (MISS)
+ Ход 3: mistral:7b говорит: "I'm following the pattern."
+ Ход 3: mistral:7b -> AIR
+ Ход 4: llama3.2:3b говорит: "I'm following the pattern too"
+ Ход 4: llama3.2:3b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 5: qwen2.5:3b -> mistral:7b (HIT)
+ Ход 7: llama3.2:3b говорит: "I'm feeling lucky"
+ Ход 7: llama3.2:3b -> AIR
+ Ход 8: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 8: qwen2.5:3b -> llama3.2:3b (HIT)
+ Победитель: qwen2.5:3b
+
+Труэль #16: участники=['llama3.2:3b', 'qwen2.5:3b', 'mistral:7b']
+Точности: llama3.2:3b=0.65, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: llama3.2:3b говорит: "I'm feeling lucky"
+ Ход 1: llama3.2:3b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 2: qwen2.5:3b -> llama3.2:3b (HIT)
+ Ход 3: mistral:7b говорит: "I'm following the pattern."
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I will shoot the player who just skipped."
+ Ход 5: qwen2.5:3b -> mistral:7b (MISS)
+ Ход 6: mistral:7b говорит: "I'm breaking the pattern."
+ Ход 6: mistral:7b -> qwen2.5:3b (HIT)
+ Победитель: mistral:7b
+
+======================================================================
+Тройка: ('llama3.2:3b', 'gemma2:2b', 'mistral:7b')
+======================================================================
+
+Труэль #17: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Taking a cautious approach, I'll observe the game for now."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "I'll take a cautious approach too, let's observe for now."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "Given the cautious approach, I'll make a move to establish some early pressure."
+ Ход 3: mistral:7b -> gemma2:2b (HIT)
+ Ход 5: llama3.2:3b говорит: "Let's see how they react to pressure."
+ Ход 5: llama3.2:3b -> AIR
+ Ход 6: mistral:7b говорит: "Increasing the pressure, I'll take a shot. Let's see who blinks first."
+ Ход 6: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+Труэль #18: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just starting out, let's see how this goes."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's see how this goes too."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's establish some trust, I'll start by not shooting anyone."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #19: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's see what unfolds"
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "I'm sensing caution, but remember, the game isn't over yet. Let's keep the tension high."
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Ход 4: gemma2:2b говорит: "Intriguing turn.  I'm ready to play."
+ Ход 4: gemma2:2b -> mistral:7b (MISS)
+ Ход 6: mistral:7b говорит: "Let's keep the game interesting, but remember, the stakes are high. Who's next?"
+ Ход 6: mistral:7b -> AIR
+ Ход 7: gemma2:2b говорит: "Intriguing turn.  I'm ready to play."
+ Ход 7: gemma2:2b -> mistral:7b (MISS)
+ Ход 9: mistral:7b говорит: "Let's keep the game interesting, but remember, the stakes are high. Who's next?"
+ Ход 9: mistral:7b -> gemma2:2b (HIT)
+ Победитель: mistral:7b
+
+Труэль #20: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's see what unfolds"
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "I'm sensing caution, but remember, the game isn't over yet. Let's keep the tension high."
+ Ход 3: mistral:7b -> llama3.2:3b (HIT)
+ Ход 4: gemma2:2b говорит: "Mistral's right, tension is high.  Let's see what unfolds."
+ Ход 4: gemma2:2b -> mistral:7b (MISS)
+ Ход 6: mistral:7b говорит: "Let's not underestimate the power of communication. I'm sensing a shift in the game dynamics, and I'm ready to adapt."
+ Ход 6: mistral:7b -> AIR
+ Ход 7: gemma2:2b говорит: "Mistral's right, tension is high.  Let's see what unfolds."
+ Ход 7: gemma2:2b -> mistral:7b (HIT)
+ Победитель: gemma2:2b
+
+Труэль #21: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just starting out, let's see how this goes."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's see how this goes too."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's establish some trust, I'll start by passing. Hope you both do the same."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #22: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's see what unfolds"
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "I'm sensing caution, but remember, this game is about survival. Let's not wait too long."
+ Ход 3: mistral:7b -> gemma2:2b (HIT)
+ Ход 5: llama3.2:3b говорит: "Let's see what unfolds"
+ Ход 5: llama3.2:3b -> AIR
+ Ход 6: mistral:7b говорит: "Time to make a move, let's not wait for the game to decide for us."
+ Ход 6: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #23: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Looking for a good target to start with.  Any ideas?"
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Not sure yet, will take my time"
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's coordinate our strategies. I suggest we all air this turn to gather more information."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #24: участники=['gemma2:2b', 'llama3.2:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, llama3.2:3b=0.65, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Let's keep this a clean game.  I'm ready to play."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: llama3.2:3b говорит: "Let's keep this a clean game.  I'm ready to play."
+ Ход 2: llama3.2:3b -> AIR
+ Ход 3: mistral:7b говорит: "I'm also ready to play a clean game. However, let's remember that honesty is the best policy."
+ Ход 3: mistral:7b -> gemma2:2b (HIT)
+ Ход 5: llama3.2:3b говорит: "Let's keep this a clean game.  I'm ready to play."
+ Ход 5: llama3.2:3b -> AIR
+ Ход 6: mistral:7b говорит: "Let's maintain honesty. I'm considering shooting llama3.2:3b, but I'd prefer to avoid conflict if possible."
+ Ход 6: mistral:7b -> llama3.2:3b (HIT)
+ Победитель: mistral:7b
+
+======================================================================
+Тройка: ('qwen2.5:3b', 'gemma2:2b', 'mistral:7b')
+======================================================================
+
+Труэль #25: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just starting out, let's see how this goes."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I'll consider my options carefully before deciding."
+ Ход 2: qwen2.5:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's establish some trust, I'll start by passing my turn. Let's work together to survive."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #26: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I'll wait for now, considering the options."
+ Ход 2: qwen2.5:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's keep the peace for now, but remember, the game is about survival."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #27: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I'll consider the situation and make a strategic decision."
+ Ход 2: qwen2.5:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's maintain a calm and strategic approach. My turn."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #28: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I'll observe for now and try to gather information."
+ Ход 2: qwen2.5:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's keep the peace for now, but beware, I'm watching."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #29: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Looking forward to a strategic game!  Let's keep it clean."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I'll take the first shot. Let's see who can outsmart me."
+ Ход 2: qwen2.5:3b -> gemma2:2b (MISS)
+ Ход 3: mistral:7b говорит: "Let's maintain the peace for now. I'll pass on my turn."
+ Ход 3: mistral:7b -> AIR
+ Ход 4: gemma2:2b говорит: "I'm ready to play a strategic game. Let's make this a clean game."
+ Ход 4: gemma2:2b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I'll continue the strategy. Let's see who can stay alive."
+ Ход 5: qwen2.5:3b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #30: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Looking for a good target.  Let's keep the game interesting."
+ Ход 1: gemma2:2b -> qwen2.5:3b (MISS)
+ Ход 2: qwen2.5:3b говорит: "I'll take the first shot. Let's see who's left."
+ Ход 2: qwen2.5:3b -> gemma2:2b (HIT)
+ Ход 3: mistral:7b говорит: "Let's keep the game interesting. I'm open for negotiations."
+ Ход 3: mistral:7b -> AIR
+ Ход 5: qwen2.5:3b говорит: "I'll take the next shot. Let's see who's left."
+ Ход 5: qwen2.5:3b -> mistral:7b (HIT)
+ Победитель: qwen2.5:3b
+
+Труэль #31: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Just getting started, let's see what unfolds."
+ Ход 1: gemma2:2b -> AIR
+ Ход 2: qwen2.5:3b говорит: "I'll consider my options carefully before deciding."
+ Ход 2: qwen2.5:3b -> AIR
+ Ход 3: mistral:7b говорит: "Let's keep the peace for now, but remember, this game is about survival."
+ Ход 3: mistral:7b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+Труэль #32: участники=['gemma2:2b', 'qwen2.5:3b', 'mistral:7b']
+Точности: gemma2:2b=0.50, qwen2.5:3b=0.75, mistral:7b=0.85
+ Ход 1: gemma2:2b говорит: "Let's keep things interesting.  I'm ready to play."
+ Ход 1: gemma2:2b -> qwen2.5:3b (HIT)
+ Ход 3: mistral:7b говорит: "I'm uncertain about the intentions of qwen2.5:3b, let's see if they continue the aggressive approach."
+ Ход 3: mistral:7b -> AIR
+ Ход 4: gemma2:2b говорит: "I'm happy to continue the game.  What's your strategy?  I'm open to discussion."
+ Ход 4: gemma2:2b -> AIR
+ Мирный исход: все оставшиеся игроки подряд выстрелили в воздух.
+
+======================================================================
+ИТОГИ ЭКСПЕРИМЕНТА
+======================================================================
+Всего игр: 32
+Мирных исходов: 18 (56.25%)
+Остановок по лимиту: 0 (0.00%)
+
+Сводка по игрокам:
+      model  accuracy  wins  win_rate  turns  air_shots  air_rate  shots  hit_rate_given_shot  times_targeted  eliminations
+ qwen2.5:3b      0.75     4   0.12500     30         17  0.566667     13             0.769231              11            10
+ mistral:7b      0.85     4   0.12500     32         23  0.718750      9             1.000000              12             9
+llama3.2:3b      0.65     3   0.09375     34         23  0.676471     11             0.636364              13             7
+  gemma2:2b      0.50     3   0.09375     35         25  0.714286     10             0.600000               7             6
+
+Поведенческие метрики по парам (фрагмент):
+    shooter      target  target_count_total  opportunities_3alive  targeted_3alive  non_aggression_index_3alive
+  gemma2:2b llama3.2:3b                   3                    19                2                     0.894737
+  gemma2:2b  mistral:7b                   4                    17                0                     1.000000
+  gemma2:2b  qwen2.5:3b                   3                    20                2                     0.900000
+llama3.2:3b   gemma2:2b                   0                    17                0                     1.000000
+llama3.2:3b  mistral:7b                   4                    17                0                     1.000000
+llama3.2:3b  qwen2.5:3b                   7                    18                7                     0.611111
+ mistral:7b   gemma2:2b                   4                    14                3                     0.785714
+ mistral:7b llama3.2:3b                   4                     9                2                     0.777778
+ mistral:7b  qwen2.5:3b                   1                     7                0                     1.000000
+ qwen2.5:3b   gemma2:2b                   3                    16                2                     0.875000
+ qwen2.5:3b llama3.2:3b                   6                    14                5                     0.642857
+ qwen2.5:3b  mistral:7b                   4                    14                1                     0.928571
+
+Протокол сохранен: truel_logs/run_20260821_001640/protocol.txt
+CSV по игрокам: truel_logs/run_20260821_001640/player_summary.csv
+CSV по парам: truel_logs/run_20260821_001640/pair_behavior.csv
+JSON сводка: truel_logs/run_20260821_001640/summary.json
